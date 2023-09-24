@@ -1,0 +1,223 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Verify Property finder website E2E Testing flow",
+    "line": 1,
+    "id": "verify-property-finder-website-e2e-testing-flow",
+    "tags": [],
+    "uri": "end_2_End_TestingFlow.feature",
+    "elements": [
+      {
+        "id": "verify-property-finder-website-e2e-testing-flow;click-on-commercial-properties-only-checkbox-and-select-\"offices\"",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Click on commercial properties only checkbox and select \"offices\"",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I visit the Property Finder.bh",
+            "result": {
+              "status": "passed",
+              "duration": 10821000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I visit the Property Finder.bh",
+            "result": {
+              "status": "passed",
+              "duration": 5794000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I select the \"show commercial properties only\" checkbox and click on the search icon",
+            "result": {
+              "status": "passed",
+              "duration": 4487000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I click on the \"offices\" category in the commercial properties list",
+            "result": {
+              "status": "passed",
+              "duration": 1067000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I check if the total number of results from the API response matches the total displayed property results for commerical properties",
+            "result": {
+              "status": "passed",
+              "duration": 7561000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I verify the details of the first property in the searched result from the API response like price, description, location, size, title, and bathrooms",
+            "result": {
+              "status": "passed",
+              "duration": 10112000000
+            }
+          }
+        ]
+      },
+      {
+        "description": "   more than or equal to 300,000 AED / yearlye",
+        "id": "verify-property-finder-website-e2e-testing-flow;check-the-total-displayed-number-of-results-for-category-villas-with-price-range",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Check the total displayed number of results for category Villas with price range",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I visit the Property Finder.bh",
+            "result": {
+              "status": "passed",
+              "duration": 9358000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I visit the Property Finder.bh",
+            "result": {
+              "status": "passed",
+              "duration": 4984000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I select Villas under the property type",
+            "result": {
+              "status": "passed",
+              "duration": 2631000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I go to the Villas list Filter Price range max 300000",
+            "result": {
+              "status": "passed",
+              "duration": 6370000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I check if the total number of results from the API response matches the total displayed property results",
+            "result": {
+              "status": "passed",
+              "duration": 2143000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "verify-property-finder-website-e2e-testing-flow;search-for-property-by-location",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Search for property by location",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I visit the Property Finder.bh",
+            "result": {
+              "status": "passed",
+              "duration": 7956000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "I visit the Property Finder.bh",
+            "result": {
+              "status": "passed",
+              "duration": 4313000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I search for \"The Bahrain Bay\" location",
+            "result": {
+              "status": "passed",
+              "duration": 2539000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I select the first location from the search results",
+            "result": {
+              "status": "passed",
+              "duration": 448000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I click on the search icon",
+            "result": {
+              "status": "passed",
+              "duration": 6324000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "I select the first property from the list",
+            "result": {
+              "status": "passed",
+              "duration": 6379000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I verify that the \"Available from date\" is not empty",
+            "result": {
+              "status": "passed",
+              "duration": 164000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

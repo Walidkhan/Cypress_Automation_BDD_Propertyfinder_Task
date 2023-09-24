@@ -1,0 +1,62 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Verify the total displayed number of results for Villas with a price range of more than or equal to 300,000 AED / yearly",
+    "line": 1,
+    "id": "verify-the-total-displayed-number-of-results-for-villas-with-a-price-range-of-more-than-or-equal-to-300,000-aed-/-yearly",
+    "tags": [],
+    "uri": "villas.feature",
+    "elements": [
+      {
+        "id": "verify-the-total-displayed-number-of-results-for-villas-with-a-price-range-of-more-than-or-equal-to-300,000-aed-/-yearly;check-if-the-total-displayed-number-of-results-matches-the-api-response-for-villas-with-the-specified-price-range",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Check if the total displayed number of results matches the API response for Villas with the specified price range",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I visit the Property Finder.bh",
+            "result": {
+              "status": "passed",
+              "duration": 6720000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I select Villas under the property type",
+            "result": {
+              "status": "passed",
+              "duration": 1956000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I go to the Villas list Filter Price range max 300000",
+            "result": {
+              "status": "passed",
+              "duration": 5517000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I check if the total number of results from the API response matches the total displayed property results",
+            "result": {
+              "status": "passed",
+              "duration": 1482000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

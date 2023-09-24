@@ -1,0 +1,72 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "PropertyFinder.bh - Commercial Properties Search",
+    "line": 1,
+    "id": "propertyfinder.bh---commercial-properties-search",
+    "tags": [],
+    "uri": "commerical.feature",
+    "elements": [
+      {
+        "id": "propertyfinder.bh---commercial-properties-search;click-on-commercial-properties-only-checkbox-and-select-\"offices\"",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Click on commercial properties only checkbox and select \"offices\"",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the PropertyFinder.bh website",
+            "result": {
+              "status": "passed",
+              "duration": 7247000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I select the \"show commercial properties only\" checkbox and click on the search icon",
+            "result": {
+              "status": "passed",
+              "duration": 2865000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I click on the \"offices\" category in the commercial properties list",
+            "result": {
+              "status": "passed",
+              "duration": 930000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I check if the total number of results from the API response matches the total displayed property results for commerical properties",
+            "result": {
+              "status": "passed",
+              "duration": 5077000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I verify the details of the first property in the searched result from the API response like price, description, location, size, title, and bathrooms",
+            "result": {
+              "status": "passed",
+              "duration": 7679000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

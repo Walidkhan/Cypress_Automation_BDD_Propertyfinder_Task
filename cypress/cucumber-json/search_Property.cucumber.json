@@ -1,0 +1,83 @@
+[
+  {
+    "description": "  As a user\n  I want to search for a property by location\n  So that I can find available properties in a specific area",
+    "keyword": "Feature",
+    "name": "Property Search",
+    "line": 1,
+    "id": "property-search",
+    "tags": [],
+    "uri": "search_Property.feature",
+    "elements": [
+      {
+        "id": "property-search;search-for-property-by-location",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Search for property by location",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the Property Finder.bh",
+            "result": {
+              "status": "passed",
+              "duration": 6920000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I search for \"The Bahrain Bay\" location",
+            "result": {
+              "status": "passed",
+              "duration": 1181000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I select the first location from the search results",
+            "result": {
+              "status": "passed",
+              "duration": 238000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click on the search icon",
+            "result": {
+              "status": "passed",
+              "duration": 5371000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I select the first property from the list",
+            "result": {
+              "status": "passed",
+              "duration": 6161000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I verify that the \"Available from date\" is not empty",
+            "result": {
+              "status": "passed",
+              "duration": 119000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
