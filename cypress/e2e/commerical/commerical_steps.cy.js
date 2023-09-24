@@ -2,7 +2,6 @@ import { Given, When, Then } from "cypress-cucumber-preprocessor/steps";
 var commericalPage = require('../../support/Page_Object_Model/commericalClass')
 
 Given('I am on the PropertyFinder.bh website', () => {
-    cy.viewport(1280, 768);
    cy.visit('/')
    cy.url().should('eq','https://www.propertyfinder.bh/')
 });

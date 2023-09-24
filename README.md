@@ -26,7 +26,7 @@ Step 4 - Open the terminal.
 step 5 - Install the project dependencies: use the follwing command
          -  npm i or npm install 
          - npm install cypress --save-dev
-         - npx cypress inst
+         - if binary is not install then run this : npx cypess install
 
 Step 6 - After Install this run the command " npx cypress open " to run the test cases.
 

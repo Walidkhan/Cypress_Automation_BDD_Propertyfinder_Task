@@ -2,7 +2,6 @@ import { Given, When, Then } from "cypress-cucumber-preprocessor/steps";
 var SearchPropertPage = require('../../support/Page_Object_Model/searchProprtyClass')
 
 Given('I am on the Property Finder.bh', () => {
-    cy.viewport(1280, 768);
     cy.visit('/')
     cy.url().should('eq','https://www.propertyfinder.bh/')
   });
