@@ -1,0 +1,21 @@
+name: Cypress CI
+
+on:
+  push:
+    branches:
+      - main  
+
+jobs:
+  test:
+    name: Run Cypress Tests
+    runs-on: windows
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run Cypress tests
+        run: npm run cy:run
